@@ -1,0 +1,36 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+table {
+    width: 100%;
+   
+    
+  }
+  
+  mat-card{
+    border-radius: 20px;
+    background-color: #5e595949;  
+    width: 1400px;
+    margin-top: 40px;
+    
+  }
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .header{
+    font-size: 16px;
+    background-color: white;
+    text-align: center;    
+
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  .body{
+    text-align: center;
+  }

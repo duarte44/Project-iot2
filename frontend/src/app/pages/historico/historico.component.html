@@ -1,0 +1,38 @@
+<app-header  [title]="nomeTitle"    ></app-header>
+
+<div class="main">
+  <mat-card>
+ 
+   
+    <h1>{{getAllTempo.nome}}</h1>
+
+    <table class="table " >
+        <thead >
+         <tr class="header">
+           <th> Hora</th>      
+        
+           <th>  Temperatura  <mat-icon>filter_list</mat-icon></th>
+         </tr>
+        </thead><br>
+    <tbody class="body">
+     <tr >  
+     
+     <ng-container>
+       <td>{{getAllTempo.hora}}</td>
+      </ng-container>
+
+      <ng-container>
+       <td>{{getAllTempo.temp}}</td>      
+      </ng-container>
+      
+
+      
+    </tbody>
+ </table>
+</mat-card>
+</div>
+ 
+  <h1>
+
+  </h1>
+  
